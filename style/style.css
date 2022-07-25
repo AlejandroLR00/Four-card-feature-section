@@ -93,3 +93,47 @@ h2{
     bottom: 2rem;
     right: 1.5rem;
 }
+
+
+@media screen and (min-width: 800px){
+
+    .main{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .text{
+        width: 35rem;
+        margin-top: 2.5rem;
+        margin-bottom: 3rem;
+    }
+
+    .subtitle{
+        font-size: 2.3rem;
+    }
+
+    h1{
+        font-size: 2.3rem;
+    }
+
+    .container{
+        padding-bottom: 0;
+    }
+
+    .card__container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .card--styles{
+        height: 15.5rem;
+        width: 22rem;
+        margin-bottom: 1rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+    
+}
